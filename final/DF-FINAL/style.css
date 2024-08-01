@@ -241,3 +241,43 @@ body {
   background-color: white;
   color: rgb(8, 141, 8);
 }
+/*----------WELCOME TO ONLINE LEARNING --------*/
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: white;
+}
+
+.welcome-row {
+  padding: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome-heading {
+  font-weight: bold;
+}
+
+.welcome-details {
+  font-size: small;
+}
+
+.welcome-link a {
+  padding-top: 20px;
+  color: rgb(41, 143, 41);
+  text-decoration: none;
+}
+
+.welcome-link i {
+  color: rgb(41, 143, 41);
+  text-decoration: underline;
+  text-decoration-color: rgb(41, 143, 41);
+  transition-duration: 1s;
+  transition-property: all;
+  transition-timing-function: linear;
+}
+
+.welcome-link i:hover {
+  color: rgb(41, 143, 41);
+  transform: rotate(45deg);
+}
