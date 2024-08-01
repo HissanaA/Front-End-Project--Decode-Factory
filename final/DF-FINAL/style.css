@@ -325,27 +325,45 @@ body {
 .container-fluid {
   position: relative;
 }
-.speciality-col-1 {
+.speciality-1 {
   overflow: hidden;
-  background-image: url("./assets/video-bg.jpg");
+
   display: block;
   max-width: 100%;
   height: auto;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+/*
 .playbutton {
   color: orange;
-  background-color: white;
 
   font-size: 105px;
-  border-radius: 50%;
 
   position: absolute;
-  top: 25rem;
 }
-
+*/
 .speciality-heading {
   font-weight: bold;
+}
+
+.speciality-details {
+  font-size: small;
+}
+
+.speciality-2 {
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.sub-row-icon {
+  font-size: 25px;
+  align-self: center;
+  box-shadow: -1px 5px 5px rgb(226, 221, 221);
+  border-radius: 50%;
+}
+
+.sub-row-1 {
+  align-content: flex-start;
 }
