@@ -281,3 +281,42 @@ body {
   color: rgb(41, 143, 41);
   transform: rotate(45deg);
 }
+
+/*------TOP CATEGORIES-----------*/
+
+.category-heading {
+  font-weight: bold;
+}
+
+.category-details {
+  font-size: small;
+}
+
+.category-row {
+  background-color: rgb(249, 248, 247);
+}
+
+.category-col {
+  margin: 5px;
+  padding: 10px;
+  padding-bottom: 25px;
+  background-color: white;
+}
+
+.category-col:hover {
+  background-color: whitesmoke;
+  box-shadow: 2px 10px 50px 1px rgb(230, 228, 228);
+}
+
+.btn {
+  color: black;
+  font-size: smaller;
+  padding: 15px 20px 15px 20px;
+
+  border-radius: 35px;
+}
+
+.btn:hover {
+  background-color: white;
+  color: rgb(8, 141, 8);
+}
