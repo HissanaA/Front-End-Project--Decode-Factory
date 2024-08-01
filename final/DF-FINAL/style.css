@@ -67,7 +67,7 @@ body {
   font-size: small;
 }
 
-.btn {
+.header-button {
   background-color: aliceblue;
   border-radius: 25px;
   font-size: small;
@@ -100,6 +100,7 @@ body {
 
 .section-heading {
   text-align: center;
+  font-weight: bolder;
 }
 
 .section-intro {
@@ -135,19 +136,108 @@ body {
   box-shadow: 2px 10px 50px 5px rgb(212, 211, 211);
 }
 
-h1 {
+/*h1 {
   font-weight: bolder;
-}
+}*/
 
-i {
+.skill-icon {
   margin: 10px;
 }
-h4 {
+
+.skill-heading {
   margin: 15px;
   font-weight: bold;
 }
-p {
+.skill-details {
   font-size: smaller;
 }
 
-/*-------------------------*/
+/*------------POPULAR COURSES-------------*/
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: white;
+}
+
+.course-row {
+  justify-items: center;
+  background-color: rgb(243, 237, 237);
+}
+
+.course-heading {
+  text-align: center;
+  font-weight: bold;
+}
+
+.course-details {
+  text-align: center;
+  font-size: small;
+}
+
+.card {
+  border: none;
+}
+
+.card-img-top:hover {
+  transform: scale(1.05);
+}
+
+.card-icons {
+  justify-content: space-between;
+}
+
+.bi {
+  padding: 10px;
+  size: 50%;
+}
+
+.card-icons > i {
+  font-style: normal;
+}
+
+.full-stack,
+.design,
+.JS,
+.business,
+.marketing,
+.python {
+  background-color: white;
+  justify-content: center;
+}
+
+.full-stack:hover {
+  background-color: whitesmoke;
+  box-shadow: 2px 10px 50px 5px rgb(212, 211, 211);
+}
+.design:hover {
+  background-color: whitesmoke;
+  box-shadow: 2px 10px 50px 5px rgb(212, 211, 211);
+}
+.JS:hover {
+  background-color: whitesmoke;
+  box-shadow: 2px 10px 50px 5px rgb(212, 211, 211);
+}
+.business:hover {
+  background-color: whitesmoke;
+  box-shadow: 2px 10px 50px 5px rgb(212, 211, 211);
+}
+.marketing:hover {
+  background-color: whitesmoke;
+  box-shadow: 2px 10px 50px 5px rgb(212, 211, 211);
+}
+.python:hover {
+  background-color: whitesmoke;
+  box-shadow: 2px 10px 50px 5px rgb(212, 211, 211);
+}
+
+.btn {
+  color: black;
+  font-size: smaller;
+  padding: 15px 20px 15px 20px;
+
+  border-radius: 35px;
+}
+
+.btn:hover {
+  background-color: white;
+  color: rgb(8, 141, 8);
+}
