@@ -58,6 +58,7 @@ body {
   right: 0;
   color: aliceblue;
   padding: 5px;
+  font-size: small;
 }
 .hero-heading {
   font-weight: 600;
@@ -67,9 +68,70 @@ body {
   font-size: small;
 }
 
-.header-button {
-  background-color: aliceblue;
+.herobutton {
+  background-color: white;
+  color: black;
+
   border-radius: 25px;
+  font-size: smaller;
+  margin-right: 100%;
+  padding: 5px 10px 5px 10px;
+}
+
+.herobutton:hover {
+  background-color: rgb(119, 227, 119);
+  color: white;
+}
+.navbar-nav {
+  padding-right: 200px;
+}
+
+.navbar-brand {
+  padding-left: 200px;
+}
+.home {
+  color: rgb(119, 227, 119);
+  font-size: small;
+}
+.home:hover {
+  color: rgb(119, 227, 119);
+}
+
+.courses {
+  color: white;
+  font-size: small;
+}
+.courses:hover {
+  color: rgb(119, 227, 119);
+}
+
+.mentors {
+  color: white;
+  font-size: small;
+}
+.mentors:hover {
+  color: rgb(119, 227, 119);
+}
+.blog {
+  color: white;
+  font-size: small;
+}
+.blog:hover {
+  color: rgb(119, 227, 119);
+}
+.contact {
+  color: white;
+  font-size: small;
+}
+.contact:hover {
+  color: rgb(119, 227, 119);
+}
+
+.navbutton {
+  background-color: rgb(119, 227, 119);
+  color: white;
+  border-radius: 25px;
+  margin: 2px;
   font-size: small;
 }
 
@@ -81,7 +143,7 @@ body {
   .hero-details {
     position: absolute;
     display: block;
-    text-align: center;
+    /*text-align: center;*/
     justify-items: center;
     align-items: center;
     bottom: 0%;
@@ -89,6 +151,38 @@ body {
     top: 10px;
     color: aliceblue;
     padding: 5px;
+    font-size: small;
+  }
+
+  .hero-heading {
+    font-size: large;
+    text-align: center;
+  }
+
+  .hero-intro {
+    font-size: smaller;
+  }
+
+  .navbar-brand {
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight: 400px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .herobutton {
+    background-color: white;
+    color: black;
+
+    border-radius: 25px;
+    font-size: 9px;
+    margin-right: 100%;
+    padding: 2px 5px 2px 5px;
+  }
+
+  .herobutton:hover {
+    background-color: rgb(119, 227, 119);
+    color: white;
   }
 }
 
@@ -229,7 +323,7 @@ body {
   box-shadow: 2px 10px 50px 5px rgb(212, 211, 211);
 }
 
-.btn {
+.coursebutton {
   color: black;
   font-size: smaller;
   padding: 15px 20px 15px 20px;
@@ -237,7 +331,7 @@ body {
   border-radius: 35px;
 }
 
-.btn:hover {
+.coursebutton:hover {
   background-color: white;
   color: rgb(8, 141, 8);
 }
@@ -308,7 +402,7 @@ body {
   box-shadow: 2px 10px 50px 1px rgb(230, 228, 228);
 }
 
-.btn {
+.categorybtn {
   color: black;
   font-size: smaller;
   padding: 15px 20px 15px 20px;
@@ -316,7 +410,7 @@ body {
   border-radius: 35px;
 }
 
-.btn:hover {
+.categorybtn:hover {
   background-color: white;
   color: rgb(8, 141, 8);
 }
