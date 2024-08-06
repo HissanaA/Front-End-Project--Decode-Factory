@@ -116,11 +116,44 @@ body {
   border-radius: 25px;
   margin: 2px;
   font-size: small;
+  position: relative;
 }
 
 .navbutton:hover {
-  background-color: white;
+  background-color: rgb(119, 227, 119);
   color: rgb(119, 227, 119);
+}
+
+/*----- background sliding on hover------*/
+.navbutton.navbtn-slide::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  border-radius: 5px;
+  background-color: rgb(56, 215, 56);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 500ms ease-in-out;
+}
+
+.navbutton.navbtn-slide:hover::before,
+.navbutton.navbtn-slide:focus::before {
+  border-radius: 5px;
+  transform: scaleX(1);
+}
+
+.navbutton.navbtn-slide {
+  border-radius: 5px;
+  z-index: 1;
+}
+.navbutton.navbtn-slide:hover,
+.navbutton.navbtn-slide:focus {
+  border-radius: 5px;
+  color: white;
 }
 /*
 @media only screen and (max-width: 768px) {
@@ -407,7 +440,7 @@ body {
 }
 
 .speciality-details {
-  font-size: small;
+  font-size: medium;
 }
 
 .speciality-2 {
@@ -425,4 +458,12 @@ body {
 
 .sub-row-1 {
   align-content: flex-start;
+}
+
+.sub-row-heading {
+  font-weight: bold;
+}
+
+.sub-row-details {
+  font-size: medium;
 }
