@@ -124,7 +124,7 @@ body {
   color: rgb(119, 227, 119);
 }
 
-/*----- background sliding on hover------*/
+/*----- background sliding on navbutton during  hover------*/
 .navbutton.navbtn-slide::before {
   content: "";
   position: absolute;
@@ -154,6 +154,33 @@ body {
 .navbutton.navbtn-slide:focus {
   border-radius: 5px;
   color: white;
+}
+
+/*navbar bg colour changing class*/
+.bgcolor {
+  background-color: white;
+}
+
+.new-wrapper {
+  margin: 0px auto;
+  width: 100%;
+  background-color: white;
+}
+.new-color {
+  color: rgb(119, 227, 119);
+  margin-right: 50px;
+  font-size: 15px;
+}
+
+.new-brand {
+  color: rgb(119, 227, 119);
+  margin-left: 50px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.new-toggler {
+  color: rgb(119, 227, 119);
 }
 /*
 @media only screen and (max-width: 768px) {
