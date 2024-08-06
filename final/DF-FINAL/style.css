@@ -494,3 +494,41 @@ body {
 .sub-row-details {
   font-size: medium;
 }
+
+/*---------------blog----------*/
+.blog-card {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.blog-heading {
+  margin: 0;
+  width: 50%;
+  text-align: start;
+  font-weight: bolder;
+}
+
+.blog-details {
+  margin: 0;
+  width: 50%;
+  text-align: start;
+  font-size: small;
+}
+
+.blog-card-heading {
+  font-weight: bolder;
+  font-size: medium;
+}
+
+.blog-card-details {
+  font-size: small;
+}
+
+.blog-image {
+  transition: all 300ms;
+  overflow: hidden;
+}
+.blog-image:hover {
+  transform: scale(1.05);
+}
