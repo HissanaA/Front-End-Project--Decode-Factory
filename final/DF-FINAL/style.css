@@ -201,16 +201,6 @@ body {
   }
 }*/
 
-@media only screen and (max-width: 1024px) {
-  .hero-img {
-    display: none;
-  }
-  .wrapper {
-    margin: 0 auto;
-    width: 90%;
-  }
-}
-
 /*----------------LEARN NEW SKILLS---------------------------*/
 body {
   background-color: white;
@@ -540,12 +530,11 @@ body {
   background-size: cover;
 
   text-align: start;
-  height: 50vh;
 }
 
 .contact-us-wrap {
   margin: 0 auto;
-  width: 75%;
+  width: 90%;
 }
 .contact-info-wrap {
   margin: 0 auto;
@@ -556,7 +545,7 @@ body {
   font-weight: bolder;
 }
 .contact-info-details {
-  font-size: medium;
+  font-size: small;
 }
 
 .hotline {
@@ -622,4 +611,129 @@ body {
 .form-button.formbtn-slide:focus {
   border-radius: 5px;
   color: white;
+}
+
+/*-------------Footer----------*/
+
+.footer-wrap {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.footdtl-wrap {
+  margin: 15px 0;
+  width: 75%;
+  text-align: start;
+}
+
+.footer-details {
+  font-size: small;
+}
+
+.Quicklink-footer {
+  margin-left: 100px;
+}
+
+.Quicklink-list,
+.Course-list,
+.Connect-list {
+  font-size: small;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 10px;
+  margin-bottom: 20px;
+}
+
+.footer-subtitle {
+  font-weight: 600;
+}
+
+.Quicklink-list a {
+  text-decoration: none;
+  color: black;
+}
+.Course-list a {
+  text-decoration: none;
+  color: black;
+}
+
+.Connect-list li {
+  margin-top: 10px;
+}
+
+.Quicklink-list li {
+  margin-top: 10px;
+}
+.Course-list li {
+  margin-top: 10px;
+}
+
+.footer-copyright {
+  padding: 10px;
+}
+
+.footer-socialmedia {
+  text-align: end;
+}
+
+.footer-icon {
+  color: black;
+}
+
+.footer-icon:hover {
+  color: rgb(119, 227, 119);
+}
+
+/*------------------MEDIA QUERY------------------------*/
+
+@media only screen and (max-width: 1024px) {
+  .hero-img {
+    display: none;
+  }
+  .wrapper {
+    margin: 0 auto;
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .contact-us-container {
+    background-image: none;
+  }
+
+  .contact-us-wrap {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .contact-info-wrap {
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+  .form-wrap {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 3em;
+  }
+
+  /*------footer-------*/
+
+  .footdtl-wrap {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .Quicklink-footer {
+    margin-left: 0;
+  }
+
+  .footer-copyright {
+    text-align: center;
+  }
+
+  .footer-socialmedia {
+    text-align: center;
+    margin-bottom: 5rem;
+  }
 }
