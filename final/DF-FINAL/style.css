@@ -532,3 +532,94 @@ body {
 .blog-image:hover {
   transform: scale(1.05);
 }
+
+/*-------------------contact us----------------------------------*/
+.contact-us-container {
+  background-image: url("https://cdn.hovia.com/app/uploads/grey-abstract-world-map-mural-Plain-820x532.jpg");
+  background-position: center;
+  background-size: cover;
+
+  text-align: start;
+  height: 50vh;
+}
+
+.contact-us-wrap {
+  margin: 0 auto;
+  width: 75%;
+}
+.contact-info-wrap {
+  margin: 0 auto;
+  width: 50%;
+  text-align: start;
+}
+.contact-info-heading {
+  font-weight: bolder;
+}
+.contact-info-details {
+  font-size: medium;
+}
+
+.hotline {
+  font-weight: bolder;
+}
+.form-wrap {
+  margin: 0 auto;
+  width: 75%;
+  text-align: end;
+}
+
+.form-name,
+.form-email,
+.form-subject,
+.form-message,
+.form-button {
+  font-size: small;
+}
+
+.form-message {
+  height: 8em;
+}
+
+.form-button {
+  border-radius: 5px;
+  background-color: rgb(119, 227, 119);
+  color: white;
+  padding: 5px 15px 5px 15px;
+  font-size: small;
+  position: relative;
+}
+.form-button:hover {
+  background-color: rgb(119, 227, 119);
+}
+
+/*----- background sliding on hover(form button)------*/
+.form-button.formbtn-slide::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  border-radius: 5px;
+  background-color: rgb(56, 215, 56);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 500ms ease-in-out;
+}
+
+.form-button.formbtn-slide:hover::before,
+.form-button.formbtn-slide:focus::before {
+  border-radius: 5px;
+  transform: scaleX(1);
+}
+
+.form-button.formbtn-slide {
+  border-radius: 5px;
+  z-index: 1;
+}
+.form-button.formbtn-slide:hover,
+.form-button.formbtn-slide:focus {
+  border-radius: 5px;
+  color: white;
+}
