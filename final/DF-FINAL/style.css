@@ -482,7 +482,72 @@ body {
 }
 
 .sub-row-details {
-  font-size: medium;
+  font-size: small;
+}
+
+/* -------------our expert instructors------------ */
+.faculty-intro {
+  margin: 0px auto;
+  width: 40%;
+  margin-top: 10px;
+}
+.faculty-intro h1 {
+  font-weight: bolder;
+}
+
+.faculty-intro p {
+  font-size: small;
+}
+
+.faculty-panel {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.faculty-card {
+  overflow: hidden;
+  width: 15rem;
+  height: auto;
+  transition: 200ms;
+  position: relative;
+}
+
+.dropup-content {
+  position: absolute;
+  background-color: #f1f1f1;
+  border-left-style: solid;
+  border-left-color: rgb(119, 221, 119);
+  bottom: 0;
+  width: 40px;
+  height: 0px;
+  padding: 0px;
+  overflow: hidden;
+  transition: 700ms;
+}
+
+.faculty-card:hover .dropup-content {
+  height: 100px;
+  transition: 700ms;
+}
+
+.dropup-link {
+  color: black;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+  display: block;
+}
+.faculty-card-body {
+  margin: 10px;
+  text-align: center;
+}
+
+.faculty-name {
+  font-weight: bold;
+}
+
+.dropup-link:hover {
+  color: rgb(119, 221, 119);
 }
 
 /*---------------blog----------*/
